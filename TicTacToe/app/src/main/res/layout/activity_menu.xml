@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+    <RadioGroup
+        android:id="@+id/language_group"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/norwegianRB"
+            android:text="@string/language_nor"
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/englishRB"
+            android:text="@string/language_eng"
+            android:onClick="onRadioButtonClicked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/gameButton"
+        android:text="@string/btn_game_nor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/howToPlayButton"
+        android:text="@string/btn_howto_nor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/exitButton"
+        android:text="@string/btn_exit_nor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <!--no.me.eliasbrattli.ovinger.project08.fragments.dialogs.HowToPlayDialogFragment
+        android:id="@+id/dialog_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/-->
+</LinearLayout>
